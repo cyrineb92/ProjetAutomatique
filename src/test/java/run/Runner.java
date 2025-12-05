@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="src/test/features",
 		glue= {"hooks", "stepDefinition"},
 		publish = true,
-				plugin = {"pretty","html:target/cucumber-report.html","json:target/cucumber-reportJson","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+				plugin = {"pretty","html:target/cucumber-report.html","json:target/cucumber-reportjson","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		
 		)
 
